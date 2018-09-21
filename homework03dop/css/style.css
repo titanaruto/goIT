@@ -92,11 +92,6 @@ ul {
 
 .lesson_two {
   width: 470px;
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   margin: 0 auto;
 
   padding: 30px 20px 20px 20px;
@@ -128,22 +123,12 @@ ul {
 
 .lesson_three {
   width: 960px;
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   margin: 0 auto;
-
   padding: 30px 20px 20px 20px;
 }
 
 .lesson_four {
   width: 450px;
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+ 
   margin: 0 auto 20px auto;
 }
