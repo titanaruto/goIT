@@ -20,9 +20,51 @@ ul {
 }
 
 .lesson_one {
-  background: url("../img/full.jpg") no-repeat;
-  background-color: white;
-  background-size: cover;
+  background: rgba(159, 118, 96, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(159, 118, 96, 1) 0%,
+    rgba(148, 92, 66, 1) 37%,
+    rgba(136, 63, 32, 1) 71%,
+    rgba(128, 41, 10, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(159, 118, 96, 1)),
+    color-stop(37%, rgba(148, 92, 66, 1)),
+    color-stop(71%, rgba(136, 63, 32, 1)),
+    color-stop(100%, rgba(128, 41, 10, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(159, 118, 96, 1) 0%,
+    rgba(148, 92, 66, 1) 37%,
+    rgba(136, 63, 32, 1) 71%,
+    rgba(128, 41, 10, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(159, 118, 96, 1) 0%,
+    rgba(148, 92, 66, 1) 37%,
+    rgba(136, 63, 32, 1) 71%,
+    rgba(128, 41, 10, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(159, 118, 96, 1) 0%,
+    rgba(148, 92, 66, 1) 37%,
+    rgba(136, 63, 32, 1) 71%,
+    rgba(128, 41, 10, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(159, 118, 96, 1) 0%,
+    rgba(148, 92, 66, 1) 37%,
+    rgba(136, 63, 32, 1) 71%,
+    rgba(128, 41, 10, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f7660', endColorstr='#80290a', GradientType=1 );
 }
 .lesson_one_nav {
   text-align: center;
@@ -39,72 +81,69 @@ ul {
 .item_link {
   font-weight: 600;
   font-size: 24px;
-  letter-spacing: 10px;  
+  letter-spacing: 10px;
   color: white;
   text-decoration: none;
   text-shadow: 1px 1px 2px black, 0 0 1em gray;
 }
 .item_link:hover {
-    text-shadow: 1px 1px 2px white, 0 0 1em blue;
-
+  text-shadow: 1px 1px 2px white, 0 0 1em blue;
 }
-
 
 .lesson_two {
-    width: 470px;
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0  auto;
-  
-    padding: 30px 20px 20px 20px;
+  width: 470px;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+
+  padding: 30px 20px 20px 20px;
 }
 .article_lesson {
-    width:450px;
-    display: inline-block;
-    margin-right: 5px;
+  width: 450px;
+  display: inline-block;
+  margin-right: 5px;
 }
 .lesson_two_image {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.lesson_two_category{
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 100;
-    color: #c6ccd3;
+.lesson_two_category {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 100;
+  color: #c6ccd3;
 }
 
 .lesson_two_title {
-    color: gray;
-    text-shadow: 1px 1px black;
-    font-size: 30px;
-    
+  color: gray;
+  text-shadow: 1px 1px black;
+  font-size: 30px;
 }
 
 .lesson_two_description {
-    color: gray;
+  color: gray;
 }
 
 .lesson_three {
-    width: 960px;
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0  auto;
-  
-    padding: 30px 20px 20px 20px;
+  width: 960px;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+
+  padding: 30px 20px 20px 20px;
 }
 
 .lesson_four {
-    width: 450px;
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0  auto 20px auto;
+  width: 450px;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto 20px auto;
 }
