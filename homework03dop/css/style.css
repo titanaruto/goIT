@@ -74,11 +74,12 @@ ul {
 }
 .nav_list_item {
   list-style: none;
-  display: inline-block;
-  margin-right: 10px;
+  display: inline-block;  
   line-height: 3;
 }
-.nav_list_item
+.nav_list_item:not(:last-child){
+  margin-right: 10px;
+}
 .item_link {
   font-weight: 600;
   font-size: 24px;
@@ -99,10 +100,9 @@ ul {
   width: 470px;
   padding: 30px 20px 20px 20px;
   display: inline-block;
-  margin-right: 10px;
 }
-.article_lesson:last-child {
-  margin-right: 0;
+.article_lesson:not(:last-child){ 
+  margin-right: 10px;
 }
 .lesson_two_image {
   margin-bottom: 10px;
@@ -135,6 +135,7 @@ ul {
 
   margin: 0 auto 20px auto;
 }
+
 /* 
 section {
   background: rgba(183, 222, 237, 1);
