@@ -5,7 +5,7 @@ html {
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -78,6 +78,7 @@ ul {
   margin-right: 10px;
   line-height: 3;
 }
+.nav_list_item
 .item_link {
   font-weight: 600;
   font-size: 24px;
@@ -105,6 +106,7 @@ ul {
 }
 .lesson_two_image {
   margin-bottom: 10px;
+  width: 100%;
 }
 .lesson_two_category {
   text-transform: uppercase;
