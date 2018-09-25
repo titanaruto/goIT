@@ -123,13 +123,14 @@ main {
   color: rgb(98, 98, 98);
   line-height: 1.714;
   text-align: left;
-  font-weight: 500;  
+  font-weight: 500;
 }
 
 .homework03_div_button {
   text-align: center;
   margin-bottom: 70px;
 }
+
 .homework03_button {
   margin: 0 auto;
   border: 1px solid rgb(98, 98, 98);
@@ -142,7 +143,10 @@ main {
   text-transform: uppercase;
   background-color: #fff;
   cursor: pointer;
-  
 }
 
-
+.homework03_button:hover,
+.homework03_button:focus {
+  border: 1px solid #03a9f4;
+  color: #03a9f4;
+}
