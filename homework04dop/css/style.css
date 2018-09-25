@@ -35,6 +35,8 @@ ul {
 
 .section_lesson {
   margin-bottom: 64px;
+  height: auto; 
+  overflow: hidden;
 }
 
 .section_lesson h3 {  
@@ -122,4 +124,28 @@ ul {
 
 .lesson_03 ul li a::before{
   content: "\2192";
+}
+
+/* lesson 04 */
+
+.lesson_04 ul {
+  display: block;
+  counter-reset: count-li 0;
+}
+
+.lesson_04 ul li {
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+  height: auto; 
+  overflow: hidden;
+  counter-increment: count-li +1;
+}
+
+.lesson_04 ul li::before{
+  display: block;
+  border: 1px solid black;
+  vertical-align: middle;
+  text-align: center;
+  content: counter(count-li, upper-roman);
 }
