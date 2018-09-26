@@ -22,6 +22,11 @@ ul {
   margin: 0;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .wrapper {
   width: 840px;
   margin: 0 auto;
@@ -35,11 +40,9 @@ ul {
 
 .section_lesson {
   margin-bottom: 64px;
-  height: auto; 
-  overflow: hidden;
 }
 
-.section_lesson h3 {  
+.section_lesson h3 {
   margin-bottom: 32px;
   font-size: 32px;
   line-height: 40px;
@@ -49,12 +52,9 @@ ul {
 /* lesson 01 */
 
 .lesson_01_nav ul li {
-
   float: left;
   list-style: none;
   margin-right: 30px;
-  height: auto; 
-  overflow: hidden;
 }
 
 .lesson_01_nav ul li a {
@@ -66,7 +66,7 @@ ul {
 
 .lesson_01_nav ul li a:hover,
 .lesson_01_nav ul li a:focus {
-  color:red;
+  color: red;
 }
 
 /* lesson_02 */
@@ -77,32 +77,26 @@ ul {
   float: left;
   list-style: none;
   margin-right: 30px;
-  height: auto; 
-  overflow: hidden;
 }
 
 .lesson_02 ul li a {
   text-transform: uppercase;
   font-size: 14px;
-  color: #0E1116;
+  color: #0e1116;
   text-decoration: none;
 }
 
-.lesson_02 ul li:nth-child(1n+1) {
-  background-color:  #88292F;
- 
+.lesson_02 ul li:nth-child(1n + 1) {
+  background-color: #88292f;
 }
-.lesson_02 ul li:nth-child(2n+1) {
-  background-color:  #5DB7DE;
- 
+.lesson_02 ul li:nth-child(2n + 1) {
+  background-color: #5db7de;
 }
-.lesson_02 ul li:nth-child(3n+1) {
-  background-color:  #0D5D56;
- 
+.lesson_02 ul li:nth-child(3n + 1) {
+  background-color: #0d5d56;
 }
 
 /* lesson 03 */
-
 
 .lesson_03 ul {
   display: block;
@@ -111,18 +105,16 @@ ul {
   float: left;
   list-style: none;
   margin-right: 30px;
-  height: auto; 
-  overflow: hidden;
 }
 
 .lesson_03 ul li a {
   text-transform: uppercase;
   font-size: 14px;
-  color: #0E1116;
+  color: #0e1116;
   text-decoration: none;
 }
 
-.lesson_03 ul li a::before{
+.lesson_03 ul li a::before {
   content: "\2192";
 }
 
@@ -137,12 +129,10 @@ ul {
   float: left;
   list-style: none;
   margin-right: 30px;
-  height: auto; 
-  overflow: hidden;
-  counter-increment: count-li +1;
+  counter-increment: count-li + 1;
 }
 
-.lesson_04 ul li::before{
+.lesson_04 ul li::before {
   display: block;
   border: 1px solid black;
   vertical-align: middle;
