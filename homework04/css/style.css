@@ -1,0 +1,227 @@
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Playfair Display", "Roboto", sans-serif, serif;
+  color: #555252;
+  font-size: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.homework04__wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.homework04__header {
+  margin-top: 38px;
+  margin-bottom: 106px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo a {
+  text-transform: uppercase;
+  font-size: 42px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.logo:first-letter {
+  color: #1abc9c;
+}
+
+.logo-link {
+  color: #555252;
+}
+
+.logo-link a {
+  text-decoration: none;
+}
+
+.homework_04_nav {
+  float: right;
+  margin-top: 14px;
+}
+
+.nav_list .list_item {
+  float: left;
+}
+.nav_list .list_item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.nav_list .list_item a {
+  text-decoration: none;
+  color: #0f0101;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav_list .list_item:first-child {
+  color: #1abc9c;
+}
+
+.nav_list .list_item a:hover,
+.nav_list .list_item a:focus,
+.nav_list .list_item a:active {
+  color: #1abc9c;
+}
+
+.article-section_featured-products {
+  margin-bottom: 104px;
+}
+.article_header {
+  text-align: center;
+  margin-bottom: 92px;
+}
+
+.article_title {
+  color: #515151;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+.article_title::after {
+  content: "";
+  display: block;
+  width: 162px;
+  margin: 0 auto;
+  border-bottom: 7px solid #1abc9c;
+  margin-top: 30px;
+}
+
+.content_list .list_item {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 255px;
+}
+.content_list .list_item:nth-child(4n) {
+  margin-right: 0;
+}
+.content_list .list_item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.content_item_bottom-info {
+  font-size: 0;
+}
+.content_text {
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #323232;
+  width: 200px;
+  height: 42px;
+  font-size: 18px;
+  padding: 14px 0 14px 14px;
+  display: inline-block;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.content_price {
+  height: 42px;
+  color: #ffffff;
+  background: #8c8c8c;
+  padding: 14px 14px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 55px;
+  display: inline-block;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.content_item:hover .content_text,
+.content_item:focus .content_text {
+  background-color: rgb(26, 188, 156);
+}
+
+.content_item:hover .content_price,
+.content_item:focus .content_price {
+  background-color: #7fd9c7;
+}
+
+.article-section_latest-news {
+  margin-bottom: 46px;
+}
+.latest-news_list {
+  float: left;
+  width: 350px;
+}
+.latest-news_list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.latest-news_list img {
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.latest-news_list .list_title {
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: rgb(85, 82, 82);
+  line-height: 1.444;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.latest-news_list .list_title::after {
+  content: "";
+  display: block;
+  width: 136px;
+  border-bottom: 3px solid #1abc9c;
+  margin-top: 14px;
+}
+
+.latest-news_list .list_discription {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(85, 82, 82);
+  line-height: 1.857;
+  margin-bottom: 18px;
+}
+.latest-news_list .list_btn {
+  border: none;
+  background: #4ec6ab;
+  text-transform: uppercase;
+  padding: 20px 42px;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  line-height: 1.625;
+  text-align: center;
+  -moz-transform: matrix(0.98757763975155, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(0.98757763975155, 0, 0, 1, 0, 0);
+  -ms-transform: matrix(0.98757763975155, 0, 0, 1, 0, 0);
+  font-weight: 100;
+}
