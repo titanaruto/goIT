@@ -88,8 +88,7 @@ body {
 
 
 
-.nav__list .nav__item a:hover,
- {
+.nav__list .nav__item a:hover {
   color: #1abc9c;
 }
 
