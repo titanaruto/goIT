@@ -148,7 +148,7 @@ body {
 
 .content_price {
   color: #ffffff;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 44%);
   padding: 14px 14px;
   font-size: 18px;
   text-align: center;
@@ -164,7 +164,7 @@ body {
 }
 
 .content_item:hover .content_price {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 44%);
 }
 
 .section_latest-news {
