@@ -52,6 +52,7 @@ body {
   font-weight: lighter;
 }
 
+
 .logo:first-letter {
   color: #1abc9c;
 }
@@ -84,7 +85,7 @@ body {
   font-weight: bold;
 }
 
-.nav__list .nav__item:first-child {
+.nav__list .active a{
   color: #1abc9c;
 }
 
