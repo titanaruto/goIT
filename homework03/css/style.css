@@ -25,17 +25,17 @@ body {
   font-size: 16px;
 }
 
-.homework03__wrapper {
+.wrapper {
   width: 900px;
   margin: 0 auto;
   padding: 0;
   font-size: 0px;
 }
 
-.homework03_nav {
+.nav {
   margin: 0 164px;
 }
-.homework03_header {
+.header {
   padding-top: 72px;
   margin-bottom: 100px;
 }
@@ -73,22 +73,22 @@ main {
   padding: 0;
 }
 
-.homework03_main_content {
+.main_content {
   margin-bottom: 52px;
 }
 
-.homework03_article {
+.article {
   width: 420px;
   padding: 0;
   margin: 0 60px 130px 0;
   display: inline-block;
 }
 
-.homework03_article:nth-child(2n) {
+.article:nth-child(2n) {
   margin-right: 0;
 }
 
-.homework03_article:nth-last-child(-n + 2) {
+.article:nth-last-child(-n + 2) {
   margin-bottom: 0;
 }
 
@@ -122,12 +122,12 @@ main {
   text-align: left;
 }
 
-.homework03_div_button {
+.div_button {
   text-align: center;
   margin-bottom: 70px;
 }
 
-.homework03_button {
+.button {
   margin: 0 auto;
   border: 1px solid rgb(98, 98, 98);
   font-size: 20px;
@@ -139,8 +139,8 @@ main {
   cursor: pointer;
 }
 
-.homework03_button:hover,
-.homework03_button:focus {
+.button:hover,
+.button:focus {
   border: 1px solid #03a9f4;
   color: #03a9f4;
 }
