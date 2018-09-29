@@ -86,13 +86,10 @@ body {
   font-weight: 900;
 }
 
-.nav__list .active a{
-  color: #1abc9c;
-}
+
 
 .nav__list .nav__item a:hover,
-.nav__list .nav__item a:focus,
-.nav__list .nav__item a:active {
+ {
   color: #1abc9c;
 }
 
@@ -163,14 +160,11 @@ body {
 }
 
 .content_item:hover .content_item_bottom-info,
-.content_item:focus .content_item_bottom-info ,
-.content_item:hover .content_title,
-.content_item:focus .content_title {
+.content_item:hover .content_title{
   background-color: rgb(26, 188, 156);
 }
 
-.content_item:hover .content_price,
-.content_item:focus .content_price {
+.content_item:hover .content_price {
   background: rgba(255, 255, 255, 0.5);
 }
 
