@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family:  sans-serif, serif;
+  font-family: sans-serif, serif;
   color: #555252;
   font-size: 16px;
 }
@@ -29,4 +29,132 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #000 0%, rgba(0, 0, 0, 0.3) 100%),
+    url("../img/back-tree.jpg") center/cover no-repeat;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 9999;
+}
+.nav {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.submenu {
+  display: none;
+}
+
+.menu-item:hover > .submenu {
+  display: block;
+  background: #199586;
+}
+
+.menu-item:hover {
+  background: #199586;
+}
+
+.menu-item {
+  float: left;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.submenu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.submenu-item:first-child {
+  margin-top: 40px;
+}
+
+.menu-item a,
+.submenu-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: #424242;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content_block {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.content_block:nth-child(1) {
+  background-color: #2ea2f3;
+  z-index: 1;
+}
+
+.content_block:nth-child(2) {
+  background-color: #199586;
+  z-index: 2;
+  left: 150px;
+}
+
+.content_block:nth-child(3) {
+  background-color: #e62365;
+  z-index: 3;
+  right: 0;
+}
+
+.content_block:nth-child(4) {
+  background-color: #f1483d;
+  z-index: 4;
+  top: 150px;
+}
+
+.content_block:nth-child(5) {
+  background-color: #fc5b2d;
+  z-index: 5;
+  top: 150px;
+  left: 150px;
+}
+.content_block:nth-child(6) {
+  background-color: #9b12ae;
+  z-index: 6;
+  top: 150px;
+  right: 0;
+}
+.content_block:nth-child(7) {
+  background-color: #4db051;
+  z-index: 7;
+  bottom: 0;
+}
+.content_block:nth-child(8) {
+  background-color: #fcef41;
+  z-index: 8;
+  bottom: 0;
+  left: 150px;
+}
+.content_block:nth-child(9) {
+  background-color: #398ef2;
+  z-index: 9;
+  bottom: 0;
+  right: 0;
 }
