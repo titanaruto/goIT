@@ -1,0 +1,246 @@
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family:  "Roboto", sans-serif, serif;
+  color: #555252;
+  font-size: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper_header {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 38px;
+  margin-bottom: 32px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo a {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+
+.logo:first-letter {
+  color: #1abc9c;
+  font-weight: 700;
+}
+
+.logo-link {
+  color: #555252;
+}
+
+.logo-link a {
+  text-decoration: none;
+}
+
+.nav {
+  float: right;
+  margin-top: 7px;
+}
+
+.nav__list .nav__item {
+  float: left;
+}
+.nav__list .nav__item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.nav__list .nav__item a {
+  text-decoration: none;
+  color: #0f0101;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+
+
+.nav__list .nav__item a:hover {
+  color: #1abc9c;
+}
+
+
+/* slider */
+.conteiner_slider {
+  height: 600px;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 2, 0.52), rgba(0, 0, 2, 0.52)),url(../img/slider.png) center/cover no-repeat;
+  position: relative;
+  
+}
+
+.slider {
+  width: 1110px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container_info_slider {
+  display: inline-block;
+  height: 118px;
+  font-size: 0;
+
+}
+.slider_title {
+  
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 1.367;
+    text-align: left;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 36px;
+  
+  
+}
+
+.slider_discription {
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 1.367;
+  font-weight: 100;
+}
+
+/* collection start */
+
+.container_collection {
+  width: 100%;
+  position: relative;
+  background-color: #e9f0fd;
+  padding-top: 100px;
+}
+.featured-products__section {
+  margin-bottom: 104px;
+  margin: 0 auto;
+  width: 1110px;
+}
+.btn {
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  font-size: 100px;
+  color: white;
+  background-color: rgb(85, 161, 143, 65%);
+  border: 0;
+  
+  cursor: pointer;
+}
+
+.btn-left {
+  left: 0;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.btn-right {
+  right: 0;
+  top:50%;
+  transform: translateY(-50%);
+}
+.section__title {
+  color: #515151;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 92px;
+}
+.section__title::after {
+  content: "";
+  display: block;
+  width: 162px;
+  margin: 0 auto;
+  border-bottom: 7px solid #1abc9c;
+  margin-top: 30px;
+}
+
+.content_list .list_item {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 255px;
+}
+.content_list .list_item:nth-child(4n) {
+  margin-right: 0;
+}
+.content_list .list_item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.content_item {
+  font-size: 0;
+}
+.content_item img{
+ width: 100%;
+}
+.content_item_bottom-info {
+  background: #323232;
+}
+.content_title {
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #323232;
+  width: 200px; 
+  font-size: 18px;
+  padding: 14px 0 14px 14px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.content_price {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 44%);
+  padding: 14px 14px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 55px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.content_item:hover .content_item_bottom-info,
+.content_item:hover .content_title{
+  background-color: rgb(26, 188, 156);
+}
+
+.content_item:hover .content_price {
+  background: rgba(255, 255, 255, 44%);
+}
