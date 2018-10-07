@@ -309,15 +309,18 @@ body {
   background: #323232;
 }
 
-.content_title {
+.content_title {  
+  background: #323232;
+  width: 200px;  
+  padding: 14px 0 14px 14px;
+  display: inline-block;  
+}
+.content_title a {
+  font-weight: 700;
+  font-size: 18px;
   text-transform: uppercase;
   color: #ffffff;
-  background: #323232;
-  width: 200px;
-  font-size: 18px;
-  padding: 14px 0 14px 14px;
-  display: inline-block;
-  font-weight: 700;
+  text-decoration: none;
 }
 
 .content_price {
