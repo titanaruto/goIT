@@ -111,9 +111,8 @@ body {
   text-align: center;
 }
 
-.info_slider {
+.slides {
   display: inline-block;
-  height: 118px;
   font-size: 0;
 }
 .slider_title {
