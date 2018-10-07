@@ -162,10 +162,13 @@ body {
   height: 104px;
   font-size: 100px;
   color: white;
-  background-color: rgb(85, 161, 143, 65%);
+  background-color: rgba(85, 161, 143, 65%);
   border: 0;
 
   cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(85, 161, 143);
 }
 
 .btn-left {
