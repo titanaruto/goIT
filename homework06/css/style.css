@@ -350,4 +350,5 @@ body {
   font-weight: bold;
   line-height: 1.2;
   padding: 14px 32px;
+  cursor: pointer;
 }
