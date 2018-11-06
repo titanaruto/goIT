@@ -81,11 +81,11 @@ body {
   top: 12px;
 }
 
-.header-content {
+.section-header {
   margin-bottom: 110px;
 }
 
-.header-content .title-discription {
+.section-header .section-title-discription {
   color: #333333;
   font-size: 24px;
   font-family: "Kaushan Script", cursive;
@@ -97,7 +97,7 @@ body {
   text-transform: none;
 }
 
-.header-content .title {
+.section-header .section-title {
   font-size: 30px;
   font-family: "Montserrat";
   color: #333333;
@@ -107,7 +107,7 @@ body {
   text-align: center;
 }
 
-.header-content .title::after {
+.section-header .section-title::after {
   content: "";
   display: block;
   width: 60px;
@@ -186,13 +186,13 @@ body {
 .our-team {
   margin-bottom: 80px;
 }
-.our-team .header-content {
+.our-team .section-header {
   margin-bottom: 88px;
 }
-.our-team .header-content .title {
+.our-team .section-header .section-title {
   margin-bottom: 40px;
 }
-.header-content .discription {
+.section-header .section-discription {
   font-size: 15px;
   font-family: "Roboto";
   color: rgb(153, 153, 153);
