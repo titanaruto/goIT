@@ -52,13 +52,18 @@ body {
   text-decoration: none;
 }
 
-.nav {
-  width: 490px;
-}
+
 
 .menu {
   display: flex;
   justify-content: space-between;
+}
+
+.menu-item {
+  margin-left: 55px;
+}
+.menu-item:first-child(){
+  margin-left: 0;
 }
 
 .menu-link {
