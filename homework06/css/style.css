@@ -222,9 +222,12 @@ body {
   from{ transform: translate(-10px, -10px);}
   to { transform: translate(-10px, -10px); } 
 }
+.our-team-content-item{
+  max-width: 380px;
+}
 .our-team-avatar {
-  width: 380px;
-  height: 470px;
+  
+
   margin-bottom: 28px;
   position: relative;  
   /* transition: background-color 200ms linear, border 200ms linear,
