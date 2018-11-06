@@ -218,8 +218,8 @@ body {
     opacity: 0;
 }
 @keyframes avatar-anim {
-  from{ transform: translate(-10px, -10px); background-color: rgb(149, 225, 211);}
-  to { transform: translate(-10px, -10px); background-color: rgb(149, 225, 211);} 
+  from{  background-color: rgb(149, 225, 211);}
+  to {  background-color: rgb(149, 225, 211);} 
 }
 @keyframes transform-left-up {
   from{ transform: translate(-10px, -10px);}
@@ -242,8 +242,7 @@ body {
   /* background-color: rgb(149, 225, 211); */
   /* transition: background-color 200ms linear; */
 }
-.our-team-avatar:hover .our-team-hover {
- 
+.our-team-avatar:hover .our-team-hover { 
   animation: transform-left-up 200ms linear;
   animation-play-state: paused;
   /* transform: translate(-10px, -10px); */
@@ -256,7 +255,7 @@ body {
   /* transform: translate(-10px, -10px); */
 }
 .our-team-avatar img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .our-team-name {
