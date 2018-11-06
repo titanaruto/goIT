@@ -20,6 +20,7 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
+  overflow-wrap: break-word;
 }
 
 body {
