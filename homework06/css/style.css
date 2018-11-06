@@ -92,6 +92,9 @@ body {
   line-height: 1.2;
   text-align: center;
   margin-bottom: 24px;
+  display: block;
+  font-weight: normal;
+  text-transform: none;
 }
 
 .header-content .title {
@@ -211,18 +214,27 @@ body {
   height: 470px;
   transition: background-image 200ms linear;
 }
-
+@keyframes avatar-anim {
+  from{ transform: translate(-10px, -10px); background-color: rgb(149, 225, 211);}
+  to { transform: translate(-10px, -10px); background-color: rgb(149, 225, 211);} 
+}
+@keyframes transform-left-up {
+  from{ transform: translate(-10px, -10px);}
+  to { transform: translate(-10px, -10px); } 
+}
 .our-team-avatar {
   width: 380px;
   height: 470px;
   margin-bottom: 28px;
-  position: relative;
-  transition: background-color 200ms linear, border 200ms linear,
-    transform 200ms linear;
+  position: relative;  
+  /* transition: background-color 200ms linear, border 200ms linear,
+    transform 200ms linear; */
 }
 .our-team-avatar:hover {
-  background-color: rgb(149, 225, 211);
-  transition: background-color 200ms linear;
+  animation: avatar-anim 200ms linear;
+  animation-play-state: paused;
+  /* background-color: rgb(149, 225, 211); */
+  /* transition: background-color 200ms linear; */
 }
 .our-team-avatar:hover .our-team-hover {
   display: flex;
@@ -233,11 +245,15 @@ body {
   );
   justify-content: center;
   align-items: center;
-  transform: translate(-10px, -10px);
+  animation: transform-left-up 200ms linear;
+  animation-play-state: paused;
+  /* transform: translate(-10px, -10px); */
   z-index: 1;
 }
 .our-team-avatar:hover img {
-  transform: translate(-10px, -10px);
+  animation: transform-left-up 200ms linear;
+  animation-play-state: paused;
+  /* transform: translate(-10px, -10px); */
 }
 .our-team-avatar img {
   max-width: 100%;
@@ -264,15 +280,22 @@ body {
 .socials {
   display: flex;
 }
+@keyframes social-icon-anim {
+  from{  background-color: rgb(149, 225, 211);}
+  to { background-color: rgb(149, 225, 211); } 
+}
 .socials-icon {
   width: 56px;
   height: 56px;
   background-color: rgb(252, 227, 138);
   margin-right: 1px;
-  transition: background-color 200ms linear;
+  /* transition: background-color 200ms linear; */
+  
 }
 .socials-icon:hover {
-  background-color: rgb(149, 225, 211);
+  animation: social-icon-anim 200ms linear;
+  animation-play-state: paused;
+  /* background-color: rgb(149, 225, 211); */
 }
 .our-team-icon {
   width: 56px;
