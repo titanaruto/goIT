@@ -13,7 +13,7 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header container">
             <h1><a class="logo" href="#">Golden</a></h1>
             <nav class="nav">
                 <ul class="menu">
@@ -25,7 +25,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="section-services">
+        <section class="section-services container">
             <header class="section-header">
                 <h2 class="section-title">services</h2>
                 <p class="section-addition-title">Proin iaculis purus consequat sem cure.</p>
@@ -33,36 +33,55 @@
             <div class="services-content">
                 <ul class="services">
                     <li class="services-item">
-                        <i class="services-icon"></i>
-                        <h1 class="services-title">text</h1>
-                        <p class="services-discription">text</p>
+                        <span class="services-icon">
+                            <i class="services-icon-basket"></i>
+                        </span>
+                        <h1 class="services-title">E-Commerce</h1>
+                        <p class="services-discription">Proin iaculis purus consequat sem cure
+                            digni ssim. Donec porttitora entum suscipit
+                            aenean rhoncus posuere odio in tincidunt.</p>
                     </li>
                     <li class="services-item">
-                        <i class="services-icon"></i>
-                        <h1 class="services-title">text</h1>
-                        <p class="services-discription">text</p>
+                        <span class="services-icon">
+                            <i class="services-icon-laptop"></i>
+                        </span>
+                        <h1 class="services-title">Responsive Web</h1>
+                        <p class="services-discription">Proin iaculis purus consequat sem cure
+                            digni ssim. Donec porttitora entum suscipit
+                            aenean rhoncus posuere odio in tincidunt.</p>
                     </li>
                     <li class="services-item">
-                        <i class="services-icon"></i>
-                        <h1 class="services-title">text</h1>
-                        <p class="services-discription">text</p>
+                        <span class="services-icon">
+                            <i class="services-icon-locked"></i>
+                        </span>
+                        <h1 class="services-title">Web Security</h1>
+                        <p class="services-discription">Proin iaculis purus consequat sem cure
+                            digni ssim. Donec porttitora entum suscipit
+                            aenean rhoncus posuere odio in tincidunt.</p>
                     </li>
                 </ul>
             </div>
         </section>
         <footer class="footer">
-            <header class="footer-header">
-                <h2 class="footer-title">contact us</h2>
-                <p class="footer-addition-title">Proin iaculis purus consequat sem cure.</p>
+            <header class="footer-header container">
+                <h2 class="footer-title section-title">contact us</h2>
+                <p class="section-addition-title">Proin iaculis purus consequat sem cure.</p>
             </header>
-            <form action="#" class="contact-form">
+            <form action="#" class="contact-form container">
+                <div class="form-inputs">
                     <div class="form-left">
-                            <input type="text" name="name" id="name" placeholder="your name" required>
-                            <input type="email" name="email" id="email" placeholder="your e-mail" required>
-                            <input type="text" name="subject" id="subject" placeholder="subject">   
+                        <input class="form-input" type="text" name="name" id="name" placeholder="your name *" required>
+                        <input class="form-input" type="email" name="email" id="email" placeholder="your e-mail *"
+                            required>
+                        <input class="form-input" type="text" name="subject" id="subject" placeholder="subject">
                     </div>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="your message"></textarea> 
+                    <div class="form-right">
+                        <textarea class="form-input" name="message" id="message" cols="30" rows="10" placeholder="your message *"></textarea>
+                    </div>
+                </div>
+                <div class="form-button">
                     <button>send message</button>
+                </div>
             </form>
         </footer>
 
