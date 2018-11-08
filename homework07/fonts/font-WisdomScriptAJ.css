@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'WisdomScriptAJ';
+	src: url('./WisdomScriptAJ.eot');
+	src: local('WisdomScriptAJ'), url('WisdomScriptAJ/WisdomScriptAJ.woff') format('woff'), 
+		url('WisdomScriptAJ/WisdomScriptAJ.ttf') format('truetype');
+}

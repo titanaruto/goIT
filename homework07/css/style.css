@@ -4,7 +4,7 @@
   --theme-color-dark: #222222;
   --font-monserrat: "Montserrat";
   --font-roboto-slab: "Roboto Slab";
-  --font-wisdom: "Wisdom";
+  --font-wisdom: "WisdomScriptAJ";
   --font-droid-serif: "Droid Serif";
 }
 
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", "Roboto Slab", "Wisdom", "Droid Serif", sans-serif, serif;
+  font-family: "Montserrat", "Roboto Slab", "WisdomScriptAJ", "Droid Serif", sans-serif, serif;
   color: var(--theme-color);
   font-size: 16px;
 }
@@ -166,7 +166,8 @@ body {
 }
 
 .footer {
-  background: url('../img/footer-backgroung.jpg') center/cover no-repeat;
+  background: url(../img/footer-backgroung.png) right no-repeat;
+  background-color: #222222;
 }
 
 .footer-header {
@@ -205,16 +206,16 @@ body {
   font-size: 14px;
   font-family: var(--font-monserrat);
 }
-.form-input:required:valid{
+
+.form-input:required:focus:valid{
   outline: rgb(4, 126, 4) solid 1px;
   outline-offset: 5px;
 }
-.form-input:required:invalid{
+.form-input:required:focus:invalid{
   outline: rgb(255, 4, 4) solid 1px;
   outline-offset: 5px;
 }
-.form-input::placeholder {
-  padding: 16px;
+.form-input::placeholder {  
   font-size: 14px;
   font-family: var(--font-monserrat);
   color: rgb(187, 187, 187);
@@ -226,6 +227,7 @@ body {
 
 .form-right textarea {
   height: 100%;
+  resize: none; 
 }
 
 .form-button {
@@ -233,7 +235,7 @@ body {
   justify-content: center;
 }
 
-.form-button button {
+.form-btn{
   border-radius: 3px;
   background-color: var(--theme-color);
   width: 240px;
@@ -247,4 +249,5 @@ body {
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
+  cursor: pointer;
 }
