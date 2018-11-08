@@ -3,6 +3,9 @@
   --theme-color: #fed136;
   --theme-color-dark: #222222;
   --font-monserrat: "Montserrat";
+  --font-roboto-slab: "Roboto Slab";
+  --font-wisdom: "Wisdom";
+  --font-droid-serif: "Droid Serif";
 }
 
 .visually-hidden {
@@ -26,7 +29,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", "Roboto Slab", "Allerta", "Droid Serif", sans-serif, serif;
+  font-family: "Montserrat", "Roboto Slab", "Wisdom", "Droid Serif", sans-serif, serif;
   color: var(--theme-color);
   font-size: 16px;
 }
@@ -48,7 +51,7 @@ body {
   font-size: 26px;
   letter-spacing: 1px;
   color: var(--theme-color);
-  font-family: "Allerta";
+  font-family: var(--font-wisdom);
   text-decoration: none;
   font-weight: 400;
   line-height: 1.577;
@@ -103,7 +106,7 @@ body {
 
 .section-addition-title {
   font-size: 18px;
-  font-family: "Droid Serif";
+  font-family: var(--font-droid-serif);
   color: rgb(119, 119, 119);
   font-style: italic;
   line-height: 0.5;
@@ -156,7 +159,7 @@ body {
 
 .services-discription {
   font-size: 14px;
-  font-family: "Roboto Slab";
+  font-family: var(--font-roboto-slab);
   color: #777777;
   line-height: 1.5;
   text-align: center;
@@ -203,10 +206,12 @@ body {
   font-family: var(--font-monserrat);
 }
 .form-input:required:valid{
-  outline: rgb(4, 126, 4) solid;
+  outline: rgb(4, 126, 4) solid 1px;
+  outline-offset: 5px;
 }
 .form-input:required:invalid{
-  outline: rgb(255, 4, 4) solid;
+  outline: rgb(255, 4, 4) solid 1px;
+  outline-offset: 5px;
 }
 .form-input::placeholder {
   padding: 16px;

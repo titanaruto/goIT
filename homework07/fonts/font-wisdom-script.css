@@ -1,0 +1,8 @@
+/* Wisdomscript - regular */
+@font-face {
+    font-family: 'Wisdom';
+    font-weight: 400;
+    font-style: italic;
+    src: url('FontBundles-Wisdom-Script/WisdomScript-Regular.otf') format('otf'),
+         url('FontBundles-Wisdom-Script/WisdomScript-Regular.ttf') format('ttf'); 
+  }
