@@ -170,6 +170,7 @@ body {
 .footer {
   background: url(../img/footer-backgroung.png) right no-repeat;
   background-color: #222222;
+  width: 100%;
 }
 
 .footer-header {
