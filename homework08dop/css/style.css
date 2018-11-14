@@ -40,20 +40,18 @@ body {
   margin-bottom: 40px;
 }
 .sidebar-left{
-  /* width: calc((540px/960px)*100%); */
-  width: 54.16%;
+  width: calc((540/960)*100%); 
+  
   background-color: rgb(82, 109, 230);
   height: 200px;
 }
 .sidebar-center{
-   /* width: calc((200px/960px)*100%); */
-  width: 20.83%;
+  width: calc((200/960)*100%);  
   background-color: #808080;
   height: 200px;
 }
 .sidebar-right{
-  /* width: calc((200px/960px)*100%); */
-  width: 20.83%;
+  width: calc((200/960)*100%);  
   background-color: rgb(255, 123, 0);
   height: 200px;
 }
