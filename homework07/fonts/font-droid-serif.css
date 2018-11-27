@@ -1,0 +1,7 @@
+/* droid-serif - italic */
+@font-face {
+    font-family: 'Droid Serif';
+    font-weight: 400;
+    font-style: italic;
+    src: url('DroidSerif/DroidSerif-Italic.ttf') format('ttf'); 
+  }

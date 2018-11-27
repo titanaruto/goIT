@@ -1,0 +1,258 @@
+@import "../fonts/fonts.css";
+:root {
+  --theme-color: #fed136;
+  --theme-color-dark: #222222;
+  --font-monserrat: "Montserrat";
+  --font-roboto-slab: "Roboto Slab";
+  --font-wisdom: "WisdomScriptAJ";
+  --font-droid-serif: "Droid Serif";
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", "Roboto Slab", "WisdomScriptAJ", "Droid Serif", sans-serif, serif;
+  color: var(--theme-color);
+  font-size: 16px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 88px;
+}
+
+.logo {
+  font-size: 26px;
+  letter-spacing: 1px;
+  color: var(--theme-color);
+  font-family: var(--font-wisdom);
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  display: block;
+  padding-bottom: 15px;
+  padding-left: 6px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  margin-left: 40px;
+}
+
+.menu-item:hover .menu-link {
+  color: var(--theme-color);
+}
+
+.menu-item:first-child {
+  margin-left: 0px;
+}
+
+.menu-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 2.929;
+  color: var(--theme-color-dark);
+  font-family: var(--font-monserrat);
+  text-align: center;
+  font-weight: 600;
+}
+
+.section-services {
+  margin-bottom: 116px;
+}
+
+.section-header {
+  margin-bottom: 80px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 75px;
+  color: var(--theme-color-dark);
+  font-family: var(--font-monserrat);
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-addition-title {
+  font-size: 18px;
+  font-family: var(--font-droid-serif);
+  color: rgb(119, 119, 119);
+  font-style: italic;
+  line-height: 0.5;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-item {
+  width: 290px;
+  text-align: center;
+}
+
+.services-icon-basket {
+  content: url('../img/icon/Icon-Basket.png');
+  color: var(--theme-color);
+}
+
+.services-icon-laptop {
+  content: url('../img/icon/Icon-Laptop.png');
+  color: var(--theme-color);
+}
+
+.services-icon-locked {
+  content: url('../img/icon/Icon-Locked.png');
+  color: var(--theme-color);
+}
+
+.services-icon {
+  color: var(--theme-color);
+  border: var(--theme-color) 3px solid;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  padding: 14px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.services-title {
+  font-size: 18px;
+  font-family: var(--font-monserrat);
+  color: var(--theme-color-dark);
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.services-discription {
+  font-size: 14px;
+  font-family: var(--font-roboto-slab);
+  color: #777777;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footer {
+  background: url(../img/footer-backgroung.png) right no-repeat;
+  background-color: #222222;
+  width: 100%;
+}
+
+.footer-header {
+  padding-top: 87px;
+  margin-bottom: 82px;
+}
+
+.form-inputs {
+  display: flex;
+  justify-content: space-between;
+  height: 210px;
+  margin-bottom: 30px;
+}
+
+.footer-title {
+  color: rgb(255, 255, 255);
+}
+
+.form-left {
+  width: 455px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.form-right {
+  width: 455px;
+}
+
+.form-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 2px;
+  border: none;
+  padding: 16px;
+  font-size: 14px;
+  font-family: var(--font-monserrat);
+}
+
+.form-input:required:focus:valid {
+  outline: rgb(4, 126, 4) solid 1px;
+  outline-offset: 5px;
+}
+
+.form-input:required:focus:invalid {
+  outline: rgb(255, 4, 4) solid 1px;
+  outline-offset: 5px;
+}
+
+.form-input::placeholder {
+  font-size: 14px;
+  font-family: var(--font-monserrat);
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.form-right textarea {
+  height: 100%;
+  resize: none;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.form-btn {
+  border-radius: 3px;
+  background-color: var(--theme-color);
+  width: 240px;
+  height: 66px;
+  margin-bottom: 115px;
+  border: none;
+  font-size: 18px;
+  font-family: var(--font-monserrat);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+/* roboto-slab-regular - vietnamese_latin-ext_cyrillic_cyrillic-ext_greek_latin_greek-ext */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('roboto-slab/roboto-slab-v7-vietnamese_latin-ext_cyrillic_cyrillic-ext_greek_latin_greek-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('roboto-slab/fonts/roboto-slab-v7-vietnamese_latin-ext_cyrillic_cyrillic-ext_greek_latin_greek-ext-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
