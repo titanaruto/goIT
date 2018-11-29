@@ -32,6 +32,7 @@
  .container {
    width: 320px;
    margin: 0 auto;
+   position: relative;
  }
 
  .banner {
@@ -39,10 +40,18 @@
    height: 540px;
    padding: 0 14px;
    margin-bottom: 64px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-top: 80px;  
  }
 
  .banner-header {
    padding-top: 20px;
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
  }
 
  .row {

@@ -20,7 +20,8 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 138px;
+        padding-top: 40px;
+        width: 88%;
     }
     .banner-title {
         font-size: 3.7rem;
@@ -47,7 +48,7 @@
 }
 @media (min-width: 768px) and (max-width: 1439px) {
     .banner {
-        padding: 20px 44px 0 44px;
+        padding: 20px 44px 40px 44px;
     }
     .container {
         width: 768px;
