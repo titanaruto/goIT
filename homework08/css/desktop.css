@@ -1,6 +1,6 @@
 @media  (min-width: 1440px) {
     .container{
-        width: 1440px;       
+        width: 100%;       
     }
     .banner {       
         height: 700px;
