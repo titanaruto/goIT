@@ -1,10 +1,9 @@
-@media  (min-width: 1440px) {        
-    .banner {       
+@media (min-width: 1440px) {
+    .banner {
         height: 700px;
     }
-    .container-desktop{
-        width: 950px;
-        margin: 0 auto;
+    .banner-title {
+        font-size: 3.7rem;
     }
     .banner-header {
         padding-top: 40px;
