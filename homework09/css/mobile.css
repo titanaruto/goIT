@@ -116,6 +116,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+.list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
 
 .partners-image {
   width: 120px;
