@@ -1,0 +1,12 @@
+@media  (min-width: 1440px) {        
+    .banner {       
+        height: 700px;
+    }
+    .container-desktop{
+        width: 950px;
+        margin: 0 auto;
+    }
+    .banner-header {
+        padding-top: 40px;
+    }
+}

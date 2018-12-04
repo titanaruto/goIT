@@ -1,0 +1,63 @@
+@media (min-width: 768px){
+    .list-item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .list-item:nth-child(2) {
+        order: 2;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+    .list-item:nth-child(3) {
+        order: 1;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .list-item:nth-child(4) {
+        order: 3;
+    }
+    .banner-header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        width: 88%;
+    }
+    .banner-title {
+        font-size: 3.7rem;
+        font-family: "Montserrat";
+        font-weight: bold;
+        margin-bottom: 26px;
+    }
+    .banner-discription {
+        font-size: 1.7rem;
+        margin-bottom: 34px;
+    }
+    .btn-banner {
+        width: 225px;
+    }
+    .btn-partner {
+        width: 192px;
+    }
+    .main-title {
+        margin-bottom: 38px;
+    }
+    .banner {       
+        height: 700px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+    .banner {
+        padding: 20px 44px 40px 44px;
+    }
+   
+    .list-item {
+        margin-right: 20px;
+    }
+    .list-item:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+  
+   
+}
+
