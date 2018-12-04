@@ -116,6 +116,10 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+.list-item {
+  text-align: center;
+  max-width: 230px;
+}
 .list-item:not(:last-child) {
   margin-bottom: 30px;
 }

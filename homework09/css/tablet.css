@@ -1,6 +1,19 @@
 @media (min-width: 768px) {
+    .list-item:nth-child(2n) {
+        margin-right: 0;
+    }
     .list-item:nth-child(2) {
+        order: 2;
         margin-bottom: 0;
+        margin-right: 20px;
+    }
+    .list-item:nth-child(3) {
+        order: 1;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .list-item:nth-child(4) {
+        order: 3;
     }
     .banner-header {
         padding-top: 40px;
@@ -40,4 +53,8 @@
     .list-item:nth-last-child(-n+2) {
         margin-bottom: 0;
     }
+    .list-item {
+        margin-right: 20px;
+    }
+    
 }
