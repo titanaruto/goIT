@@ -21,6 +21,7 @@
         justify-content: space-between;
         align-items: center;
         padding-top: 40px;
+        width: 90%;
     }
     .banner-title {
         font-size: 3.7rem;
