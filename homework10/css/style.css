@@ -472,3 +472,9 @@ body {
   padding: 14px 32px;
   cursor: pointer;
 }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .banner {
+    background: linear-gradient( 360deg, rgba(252, 227, 138, 90%) 0%, rgba(243, 129, 129, 90%) 100%), url(../img/eagle.png) no-repeat center/cover;
+  }  
+}
