@@ -75,6 +75,16 @@ body {
   color: #fff;
 }
 
+.menu__btn {
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+}
+
+.menu__item:hover .menu__btn {
+  fill: rgb(252, 227, 138);
+}
+
 @keyframes menu__link--anim {
   from {
     display: block;
@@ -104,6 +114,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 46px;
 }
 
 .banner__title-discription {
@@ -233,15 +244,15 @@ body {
 
 /* our team */
 
-.our-team {
+.main__our-team {
   margin-bottom: 80px;
 }
 
-.our-team .section__header {
+.main__our-team .section__header {
   margin-bottom: 88px;
 }
 
-.main__our-team .section__header .section__title {
+.main__our-team .section__title {
   margin-bottom: 40px;
 }
 
