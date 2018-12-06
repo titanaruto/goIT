@@ -29,7 +29,7 @@ body {
   font-size: 14px;
 }
 
-.wrapper {
+.container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -39,7 +39,9 @@ body {
   justify-content: space-between;
   padding-top: 27px;
   align-items: flex-end;
-  margin-bottom: 130px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .logo {
@@ -48,7 +50,7 @@ body {
   font-weight: bold;
   line-height: 1.2;
   text-align: left;
-  color: #95e1d3;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -70,35 +72,38 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.2;
-  color: #95e1d3;
+  color: #fff;
 }
 
 @keyframes menu__link--anim {
   from {
     display: block;
     width: 100%;
-    border-bottom: 4px solid #f38181;
+    border-bottom: 4px solid rgb(252, 227, 138);
     padding-bottom: 12px;
   }
   to {
     display: block;
     width: 100%;
-    border-bottom: 4px solid #f38181;
+    border-bottom: 4px solid rgb(252, 227, 138);
     padding-bottom: 12px;
   }
 }
 
 .menu__item:hover .menu__link {
-  color: #f38181;
+  color: rgb(252, 227, 138);
   animation: menu__link--anim 200ms linear;
   animation-play-state: paused;
 }
 
 .banner {
-  background: linear-gradient( 90deg, rgba(252, 227, 138, 90%) 0%, rgba(243, 129, 129, 90%) 100%), url(../img/eagle1x.png) no-repeat center/cover;
-position: relative;
-height: 1000px;
-width: 100%;
+  background: linear-gradient( 360deg, rgba(252, 227, 138, 90%) 0%, rgba(243, 129, 129, 90%) 100%), url(../img/eagle1x.png) no-repeat center/cover;
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner__title-discription {
@@ -125,8 +130,10 @@ width: 100%;
   color: #fff;
   margin-bottom: 124px;
 }
-.banner__btn-more{
-  display: inline-block;
+
+.banner__btn-more {
+  width: 182px;
+  display: block;
   padding: 15px 32px;
   border: 3px solid #fff;
   background-color: transparent;
@@ -134,11 +141,8 @@ width: 100%;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
 }
+
 .section__header {
   margin-bottom: 110px;
 }
