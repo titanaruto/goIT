@@ -138,6 +138,7 @@ body {
   background: linear-gradient( 360deg, rgba(252, 227, 138, 90%) 0%, rgba(243, 129, 129, 90%) 100%), url(../img/eagle1x.png) no-repeat center/cover;
   height: 1000px;
   width: 100%;
+  min-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
