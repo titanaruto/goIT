@@ -367,9 +367,17 @@ body {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
   }
+  20%{
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
   50%{
     -webkit-transform: translate(-5px, -5px);
             transform: translate(-5px, -5px);
+  }
+  70%{
+    -webkit-transform: translate(-7px, -7px);
+            transform: translate(-7px, -7px);
   }
   100% {
     -webkit-transform: translate(-10px, -10px);
@@ -383,9 +391,17 @@ body {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
   }
+  20%{
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
   50%{
     -webkit-transform: translate(-5px, -5px);
             transform: translate(-5px, -5px);
+  }
+  70%{
+    -webkit-transform: translate(-7px, -7px);
+            transform: translate(-7px, -7px);
   }
   100% {
     -webkit-transform: translate(-10px, -10px);
