@@ -327,7 +327,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* transition: background-image 200ms linear; */
+  transition: background-image 200ms linear, opacity 200ms linear;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,70 +344,6 @@ body {
   opacity: 0;
 }
 
-@-webkit-keyframes avatar--anim {
-  from {
-    background-color: rgb(149, 225, 211);
-  }
-  to {
-    background-color: rgb(149, 225, 211);
-  }
-}
-
-@keyframes avatar--anim {
-  from {
-    background-color: rgb(149, 225, 211);
-  }
-  to {
-    background-color: rgb(149, 225, 211);
-  }
-}
-
-@-webkit-keyframes transform-left-up {
-  0%  {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-  20%{
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  50%{
-    -webkit-transform: translate(-5px, -5px);
-            transform: translate(-5px, -5px);
-  }
-  70%{
-    -webkit-transform: translate(-7px, -7px);
-            transform: translate(-7px, -7px);
-  }
-  100% {
-    -webkit-transform: translate(-10px, -10px);
-            transform: translate(-10px, -10px);
-  }
-}
-
-
-@keyframes transform-left-up {
-  0%  {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-  20%{
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  50%{
-    -webkit-transform: translate(-5px, -5px);
-            transform: translate(-5px, -5px);
-  }
-  70%{
-    -webkit-transform: translate(-7px, -7px);
-            transform: translate(-7px, -7px);
-  }
-  100% {
-    -webkit-transform: translate(-10px, -10px);
-            transform: translate(-10px, -10px);
-  }
-}
 
 .personal__item {
   width: 380px;
@@ -416,29 +352,34 @@ body {
 .personal__avatar {
   margin-bottom: 28px;
   position: relative;
-  /* transition: background-color 200ms linear, border 200ms linear,
-    transform 200ms linear; */
+  transition: opacity 200ms linear, background-color 200ms linear,
+    transform 200ms linear ;
 }
 
 .personal__avatar:hover {
-  -webkit-animation: avatar--anim 200ms forwards;
-          animation: avatar--anim 200ms forwards;
-  /* background-color: rgb(149, 225, 211); */
-  /* transition: background-color 200ms linear; */
+  /* -webkit-animation: avatar--anim 200ms linear;
+          animation: avatar--anim 200ms linear;
+          animation-fill-mode:  both; */
+          
+  background-color: rgb(149, 225, 211);
+  /* transition: opacity 200ms linear, background-color 200ms linear ; */
 }
 
 .personal__avatar:hover .personal__socials-wrapper {
-  -webkit-animation: transform-left-up 200ms forwards;
-          animation: transform-left-up 200ms forwards;
-  /* transform: translate(-10px, -10px); */
+  /* -webkit-animation: transform-left-up 200ms linear;
+          animation: transform-left-up 200ms linear;
+          animation-fill-mode:  both; */
+  transform: translate(-10px, -10px);
   z-index: 1;
   opacity: 1;
 }
 
 .personal__avatar:hover .personal__img {
-  -webkit-animation: transform-left-up 200ms forwards;
-          animation: transform-left-up 200ms forwards;
-  /* transform: translate(-10px, -10px); */
+  /* -webkit-animation: transform-left-up 200ms linear  ;
+          animation: transform-left-up 200ms linear ;
+          animation-fill-mode: both; */
+  transform: translate(-10px, -10px);
+  
 }
 
 .personal__img {
