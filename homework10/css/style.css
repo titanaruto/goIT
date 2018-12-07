@@ -405,23 +405,23 @@ body {
 }
 
 .personal__avatar:hover {
-  -webkit-animation: avatar--anim 200ms linear;
-          animation: avatar--anim 200ms linear;
+  -webkit-animation: avatar--anim 200ms forwards;
+          animation: avatar--anim 200ms forwards;
   /* background-color: rgb(149, 225, 211); */
   /* transition: background-color 200ms linear; */
 }
 
 .personal__avatar:hover .personal__socials-wrapper {
-  -webkit-animation: transform-left-up 200ms linear;
-          animation: transform-left-up 200ms linear;
+  -webkit-animation: transform-left-up 200ms forwards;
+          animation: transform-left-up 200ms forwards;
   /* transform: translate(-10px, -10px); */
   z-index: 1;
   opacity: 1;
 }
 
 .personal__avatar:hover .personal__img {
-  -webkit-animation: transform-left-up 200ms linear;
-          animation: transform-left-up 200ms linear;
+  -webkit-animation: transform-left-up 200ms forwards;
+          animation: transform-left-up 200ms forwards;
   /* transform: translate(-10px, -10px); */
 }
 
