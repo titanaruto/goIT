@@ -1,0 +1,21 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+
+
+$primary-font-famyly: 'Roboto', sans-serif;
+$primary-color: #424242;
+$primary-color-hover:#03A9F4;
+$primary-font-size:18px;
+$primary-line-height:1.2;
+
+@mixin textAdapter ($font-size, $line-height){
+   font-size: $font-size;
+   line-height: $line-height;
+}
+
+.global-title{
+ @include textAdapter($primary-font-size, $primary-line-height);
+}
+
