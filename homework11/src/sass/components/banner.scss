@@ -1,0 +1,52 @@
+
+  .banner {
+    background: linear-gradient( 360deg, rgba(252, 227, 138, 90%) 0%, rgba(243, 129, 129, 90%) 100%), url(../images/eagle1x.png) no-repeat center/cover;
+    height: 1000px;
+    width: 100%;
+    min-width: 1200px;
+    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    margin-bottom: 46px;
+
+    &__title-discription {
+      font-size: 72px;
+      color: #fff;
+      font-family: "Kaushan Script", cursive;
+      line-height: 1.2;
+      text-align: center;
+      margin-bottom: 24px;
+      display: block;
+      font-weight: 500;
+      text-transform: none;
+    }
+
+    &__title {
+      font-size: 150px;
+      line-height: 140px;
+      font-family: "Montserrat";
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      display: block;
+      color: #fff;
+      margin-bottom: 124px;
+    }
+    &__btn-more {
+      width: 182px;
+      display: block;
+      text-align: center;
+      padding: 15px 32px;
+      border: 3px solid #fff;
+      background-color: transparent;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+  
+  
+  

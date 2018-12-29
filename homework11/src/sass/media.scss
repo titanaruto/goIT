@@ -1,0 +1,9 @@
+ 
+  @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+    .banner {
+      background: -webkit-gradient( linear, left bottom, left top, from(rgba(252, 227, 138, 90%)), to(rgba(243, 129, 129, 90%))), url(../images/eagle.png) no-repeat center/cover;
+      background: -webkit-linear-gradient( bottom, rgba(252, 227, 138, 90%) 0%, rgba(243, 129, 129, 90%) 100%), url(../images/eagle.png) no-repeat center/cover;
+      background: -o-linear-gradient( bottom, rgba(252, 227, 138, 90%) 0%, rgba(243, 129, 129, 90%) 100%), url(../images/eagle.png) no-repeat center/cover;
+      background: linear-gradient( 360deg, rgba(252, 227, 138, 90%) 0%, rgba(243, 129, 129, 90%) 100%), url(../images/eagle.png) no-repeat center/cover;
+    }  
+  }

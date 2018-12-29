@@ -1,0 +1,52 @@
+.section {
+  &__header {
+    margin-bottom: 110px;
+
+    &--our-team {
+      margin-bottom: 88px;
+    }
+  }
+  &__title-discription {
+    color: #333333;
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 24px;
+    display: block;
+    font-weight: 500;
+    text-transform: none;
+  }
+  &__title {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+
+    &--our-team {
+      margin-bottom: 40px;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 60px;
+      border-bottom: 4px solid #f38181;
+      margin: 0 auto;
+      padding-top: 40px;
+    }
+  }
+  &__discription {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+  }
+}
