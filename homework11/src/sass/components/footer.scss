@@ -17,7 +17,7 @@
 .footer-address {
   &__decription {
     font-size: $general-font-size;
-    font-family: "Montserrat";
+    font-family: $montserrat;
     color: $footer-color;
     line-height: 1.2;
     font-style: normal;
@@ -53,7 +53,7 @@
     background-color: $general-color;
     text-transform: uppercase;
     font-size: $general-font-size;
-    font-family: "Montserrat";
+    font-family: $montserrat;
     color: $white-color;
     font-weight: bold;
     line-height: 1.2;

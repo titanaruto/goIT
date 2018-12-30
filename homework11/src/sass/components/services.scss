@@ -41,7 +41,7 @@
   &-info {
     &__title {
       font-size: $general-font-size;
-      font-family: "Montserrat";
+      font-family: $montserrat;
       color: $footer-color;
       text-transform: uppercase;
       line-height: 1.2;
@@ -50,7 +50,7 @@
     }
     &__discription {
       font-size: 15px;
-      font-family: "Roboto";
+      font-family: $roboto;
       color: $profession-color;
       line-height: 1.6;
       text-align: left;

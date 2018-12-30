@@ -99,7 +99,7 @@
   }
   &__name {
     font-size: $general-font-size;
-    font-family: "Montserrat";
+    font-family: $montserrat;
     color: $footer-color;
     text-transform: uppercase;
     line-height: 1.2;
@@ -108,7 +108,7 @@
   }
   &__profession {
     font-size: 15px;
-    font-family: "Roboto";
+    font-family: $roboto;
     color: $profession-color;
     font-style: italic;
     line-height: 1.6;

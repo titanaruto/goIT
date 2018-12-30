@@ -10,7 +10,7 @@
   &__title-discription {
     color: $footer-color;
     font-size: 24px;
-    font-family: "Kaushan Script", cursive;
+    font-family: $kaushan-script, cursive;
     line-height: 1.2;
     text-align: center;
     margin-bottom: 24px;
@@ -20,7 +20,7 @@
   }
   &__title {
     font-size: 30px;
-    font-family: "Montserrat";
+    font-family: $montserrat;
     color: $footer-color;
     font-weight: bold;
     text-transform: uppercase;
@@ -43,7 +43,7 @@
   }
   &__discription {
     font-size: 15px;
-    font-family: "Roboto";
+    font-family: $roboto;
     color: $profession-color;
     line-height: 1.6;
     text-align: center;
