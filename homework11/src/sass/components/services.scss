@@ -40,9 +40,9 @@
 
   &-info {
     &__title {
-      font-size: 14px;
+      font-size: $general-font-size;
       font-family: "Montserrat";
-      color: rgb(51, 51, 51);
+      color: $footer-color;
       text-transform: uppercase;
       line-height: 1.2;
       margin-bottom: 6px;
@@ -51,7 +51,7 @@
     &__discription {
       font-size: 15px;
       font-family: "Roboto";
-      color: rgb(153, 153, 153);
+      color: $profession-color;
       line-height: 1.6;
       text-align: left;
     }

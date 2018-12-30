@@ -1,0 +1,6 @@
+@mixin menu__link--anim($display, $width, $border-bottom, $padding-bottom) {
+  display: $display;
+  width: $width;
+  border-bottom: $border-bottom;
+  padding-bottom: $padding-bottom;
+}

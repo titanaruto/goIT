@@ -1,19 +1,19 @@
 /* our team */
 @-webkit-keyframes social-icon--anim {
   from {
-    background-color: #f38181;
+    background-color: $second-color;
   }
   to {
-    background-color: #f38181;
+    background-color: $second-color;
   }
 }
 
 @keyframes social-icon--anim {
   from {
-    background-color: #f38181;
+    background-color: $second-color;
   }
   to {
-    background-color: #f38181;
+    background-color: $second-color;
   }
 }
 .our-team {
@@ -41,23 +41,23 @@
       linear,
       left top,
       right top,
-      from(rgba(252, 227, 138, 0.9)),
-      to(rgba(243, 129, 129, 0.9))
+      from($color-gradiant-one),
+      to($color-gradiant-two)
     );
     background-image: -webkit-linear-gradient(
       left,
-      rgba(252, 227, 138, 0.9) 0%,
-      rgba(243, 129, 129, 0.9) 100%
+      $color-gradiant-one 0%,
+      $color-gradiant-two 100%
     );
     background-image: -o-linear-gradient(
       left,
-      rgba(252, 227, 138, 0.9) 0%,
-      rgba(243, 129, 129, 0.9) 100%
+      $color-gradiant-one 0%,
+      $color-gradiant-two 100%
     );
     background-image: linear-gradient(
       90deg,
-      rgba(252, 227, 138, 0.9) 0%,
-      rgba(243, 129, 129, 0.9) 100%
+      $color-gradiant-one 0%,
+      $color-gradiant-two 100%
     );
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -98,9 +98,9 @@
     height: 100%;
   }
   &__name {
-    font-size: 14px;
+    font-size: $general-font-size;
     font-family: "Montserrat";
-    color: rgb(51, 51, 51);
+    color: $footer-color;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
@@ -109,7 +109,7 @@
   &__profession {
     font-size: 15px;
     font-family: "Roboto";
-    color: rgb(153, 153, 153);
+    color: $profession-color;
     font-style: italic;
     line-height: 1.6;
     text-align: center;
@@ -124,7 +124,7 @@
   &__icon {
     width: 56px;
     height: 56px;
-    background-color: rgb(252, 227, 138);
+    background-color: $header-btn-color;
     margin-right: 1px;
     &:hover {
       -webkit-animation: social-icon--anim 200ms linear;
@@ -136,7 +136,7 @@
       margin-right: 0;
     }
   }
-  
+
   &__link {
     display: block;
     width: 56px;
@@ -144,7 +144,7 @@
     position: relative;
     &:hover {
       .socials__svg {
-        fill: #ffffff;
+        fill: $white-color;
       }
     }
   }
@@ -152,7 +152,7 @@
     width: 26px;
     height: 26px;
     display: block;
-    fill: #f38181;
+    fill: $second-color;
     position: absolute;
     left: 50%;
     top: 50%;

@@ -1,13 +1,13 @@
 .banner {
   background: linear-gradient(
       360deg,
-      rgba(252, 227, 138, 90%) 0%,
-      rgba(243, 129, 129, 90%) 100%
+      $color-gradiant-one 0%,
+      $color-gradiant-two 100%
     ),
     url(../images/eagle1x.png) no-repeat center/cover;
   height: 1000px;
   width: 100%;
-  min-width: 1200px;
+  min-width: $container-width;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +16,7 @@
 
   &__title-discription {
     font-size: 72px;
-    color: #fff;
+    color: $white-color;
     font-family: "Kaushan Script", cursive;
     line-height: 1.2;
     text-align: center;
@@ -35,7 +35,7 @@
     line-height: 1.2;
     text-align: center;
     display: block;
-    color: #fff;
+    color: $white-color;
     margin-bottom: 124px;
   }
   &__btn-more {
@@ -43,9 +43,9 @@
     display: block;
     text-align: center;
     padding: 15px 32px;
-    border: 3px solid #fff;
+    border: 3px solid $white-color;
     background-color: transparent;
-    color: #fff;
+    color: $white-color;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;

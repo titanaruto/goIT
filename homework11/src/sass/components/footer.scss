@@ -1,7 +1,7 @@
 /* footer */
 
 .footer {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid $footer-border;
   height: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,19 +12,19 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  color: #333333;
+  color: $footer-color;
 }
 .footer-address {
   &__decription {
-    font-size: 14px;
+    font-size: $general-font-size;
     font-family: "Montserrat";
-    color: rgb(51, 51, 51);
+    color: $footer-color;
     line-height: 1.2;
     font-style: normal;
   }
   &__link {
     text-decoration: none;
-    color: #f38181;
+    color: $second-color;
   }
 }
 
@@ -37,13 +37,13 @@
   &__email {
     width: 230px;
     height: 40px;
-    border-left: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
-    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid $footer-border;
+    border-bottom: 1px solid $footer-border;
+    border-top: 1px solid $footer-border;
     border-right: none;
     padding: 10px;
     &::-webkit-input-placeholder {
-      color: #e5e5e5;
+      color: $footer-border;
     }
   }
   &__btn {
@@ -52,9 +52,9 @@
     border: none;
     background-color: $general-color;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: $general-font-size;
     font-family: "Montserrat";
-    color: rgb(255, 255, 255);
+    color: $footer-btn-color;
     font-weight: bold;
     line-height: 1.2;
     padding: 14px 32px;

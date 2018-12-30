@@ -8,7 +8,7 @@
     }
   }
   &__title-discription {
-    color: #333333;
+    color: $footer-color;
     font-size: 24px;
     font-family: "Kaushan Script", cursive;
     line-height: 1.2;
@@ -21,7 +21,7 @@
   &__title {
     font-size: 30px;
     font-family: "Montserrat";
-    color: #333333;
+    color: $footer-color;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
@@ -36,7 +36,7 @@
       content: "";
       display: block;
       width: 60px;
-      border-bottom: 4px solid #f38181;
+      border-bottom: 4px solid $second-color;
       margin: 0 auto;
       padding-top: 40px;
     }
@@ -44,7 +44,7 @@
   &__discription {
     font-size: 15px;
     font-family: "Roboto";
-    color: rgb(153, 153, 153);
+    color: $profession-color;
     line-height: 1.6;
     text-align: center;
     width: 960px;
